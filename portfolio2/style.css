@@ -1,0 +1,401 @@
+html {
+    font-family: 'Anek Latin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#home {
+    position: fixed;
+    bottom: 5%;
+    left: 90%;
+    z-index: 40;
+}
+
+.navBar {
+    position: absolute;
+    width: 90%;
+    left: 0%;
+    height: 100%;
+}
+
+.menua {
+    padding-top: 14px;
+    margin-top: 0px;
+    border: 1px solid black;
+    border-bottom: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+a {
+    border-top: 400px;
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+a:hover {
+    color:blue;
+}
+
+.holder {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+}
+
+.acceuil {
+    /* background-image: url(code.jpg);
+    background-repeat: repeat; */
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    height: 30%;
+}
+
+.menu {
+    position: absolute;
+    top: -4%;
+    left: 0%;
+    width: 100%;
+    height: 7.7%;
+    background-color: rgb(241, 255, 255);
+    border-bottom: black 1px solid;
+}
+
+.titleHolder {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.mainTitle {
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.secTitle {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#presentation {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-top: solid black 5px;
+}
+
+#parcours {
+    position: absolute;
+    top: 200%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    border-top: solid black 5px;
+}
+
+#competences {
+    position: absolute;
+    left: 0%;
+    top: 300%;
+    width: 100%;
+    height: 100%;
+    border-top: solid black 5px;
+}
+
+#experience {
+    position: absolute;
+    top: 400%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+    border-top: solid black 5px;
+}
+
+.pers {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left:0%;
+    border-right: 1px solid black;
+}
+
+.pro {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left:50%;
+    border-left: 1px solid black;
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.humaines {
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 40%;
+    left: 5%;
+    height: 75%;
+}
+
+.techinques {
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 40%;
+    right: 5%;
+    height: 75%;
+}
+
+.techTitle {
+    position: absolute;
+    top: -8%;
+    right: 0%;
+    font-weight: bold;
+}
+
+.humTitle {
+    position: absolute;
+    top: -8%;
+    font-weight: bold;
+}
+
+.minTitle {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.qualList {
+    font-size: larger;
+    text-align: center;
+}
+
+.minTitleH {
+    padding: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.hList {
+    position: relative;
+    top: 15%;
+}
+
+.tpHolder {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+    height: 80%;
+}
+
+.resAppli {
+    position: absolute;
+    border: 1px solid black;
+    left: 5%;
+    top: 10%;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.tpBc {
+    position: absolute;
+    border: 1px solid black;
+    left: 25%;
+    top: 10%;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.noneLink {
+    text-decoration: underline;
+    text-align: center;
+    text-justify: left;
+}
+
+.saves {
+    position: absolute;
+    border: 1px solid black;
+    right: 5%;
+    top: 10%;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.rapStage {
+    position: absolute;
+    border: 1px solid black;
+    right: 25%;
+    top: 10%;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.CV {
+    position: absolute;
+    border: 1px solid black;
+    left: 15.5%;
+    top: 45%;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.tablSynth {
+    position: absolute;
+    border: 1px solid black;
+    right: 15.5%;
+    top: 45%;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+.presTitle {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 60px;
+}
+
+.paragraph {
+    text-align: justify;
+    position: absolute;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    font-size: 35px;
+}
+
+
+
+.timeline-parcours {
+    width:960px;
+    height:auto;
+    min-height:10px;
+    margin:100px auto;
+ }
+ .container-info  {
+    width:960px;
+    margin:0 auto;
+    height:auto;
+    min-height:187px;
+ }
+ .timeline-section-tl {
+    width:236px;
+    height:auto;
+    min-height:10px;
+    display:inline-block;
+ }
+ .infobox {
+    width:226px;
+    color: white;
+    height:auto;
+    min-height:10px;
+    background-color:black;
+    padding:5px;
+    border-radius:10px;
+    display:inline-block;
+    margin:0px 1px;
+ }
+ .fleche-bloc {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: blue transparent transparent transparent;
+    margin:auto;
+ }
+ .parcours-box {
+    opacity:0;
+    z-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+ 
+ .container-time-line {
+    width:960px;
+    margin:auto;
+ }
+ .time-line-parcours {
+    width:730px;
+    height:10px;
+    background-color:#432828;
+    margin:auto;
+ }
+ .timeline-indicator {
+    width:0px;
+    height:10px;
+    background-color:rgb(120, 131, 208);
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+ .tl-round {
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:rgb(85, 69, 69);
+    margin:auto;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+ }
+ .container-bulle {
+    margin-top:-15px;
+ }
+ /* animation classe */ 
+ 
+ .anim-phase-1 {
+    width:240px;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+ }
+ .anim-phase-2 {
+    width:475px;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+ }
+ .anim-phase-3 {
+    width:720px;
+    -webkit-transition: all 100ms ease;
+    -moz-transition: all 100ms ease;
+    -ms-transition: all 100ms ease;
+    -o-transition: all 100ms ease;
+    transition: all 100ms ease;
+ }
+ .parcours-active {
+    opacity:1;
+    z-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+ }
